@@ -1,5 +1,5 @@
 /*!
- * jn-copy <https://github.com/jnxyx/jn-copy>
+ * jn-merge <https://github.com/jnxyx/jn-merge>
  *
  * Copyright (c) 2016-2017, Yun Xiang Xu.
  * Licensed under the MIT License.
@@ -7,13 +7,8 @@
 var each = require('jn-each')
 module.exports = function jnCopy(obj) {
 
-    var objClone = {};
+    var args = Array.prototype.slice.call(arguments, 0);
+    args.unshift({});
 
-    each(obj, function (value, key) {
-        if (obj.hasOwnProperty(key)) {
-            objClone[key] = value;
-        }
-    });
-
-    return objClone;
+    return extend.apply(null, args);
 }

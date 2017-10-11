@@ -1,14 +1,14 @@
 {
-  "name": "jn-copy",
+  "name": "jn-merge",
   "version": "0.1.1",
-  "homepage": "https://github.com/jnxyx/jn-copy",
+  "homepage": "https://github.com/jnxyx/jn-merge",
   "author": {
     "name": "Yun Xiang Xu",
     "url": "https://github.com/jnxyx"
   },
-  "repository": "jnxyx/jn-copy",
+  "repository": "jnxyx/jn-merge",
   "bugs": {
-    "url": "https://github.com/jnxyx/jn-copy"
+    "url": "https://github.com/jnxyx/jn-merge"
   },
   "license": "MIT",
   "files": [
